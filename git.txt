@@ -37,3 +37,4 @@ git push origin master
 git remote show origin -- show github repository
 git remote rename pb paul -- rename 
 git remote rm paul -- delete repository
+===============================================================
