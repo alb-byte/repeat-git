@@ -16,6 +16,7 @@ git rm --cached git.txt -- staged -> untracked
 git diff git.txt -- get changes in file
 ----------------------------------------------------------------
 git commit -m"initial commit"
+git commit --amend -- rebuild last commit
 ----------------------------------------------------------------
 git log -- get history of commits
 git log -p -3 -- 3 commit (-p -> git diff)
@@ -24,4 +25,15 @@ git log --pretty=oneline -- 1commit 1 row
 ================================================================
 .gitignore -> *.idea *.cmd ...
 ================================================================
-
+git remote add origin https://github.com/alb-byte/repeat-git.git -- bind to github
+----------------------------------------------------------------
+git checkout -- git.txt -- rollback changes in file
+================================================================
+git clone https://github/blablabla 
+git remote -v -- get url github repository
+git remote add pb https://github.com/blblsbblsblsbla -- bind to github and set name pb
+git fetch origin
+git push origin master
+git remote show origin -- show github repository
+git remote rename pb paul -- rename 
+git remote rm paul -- delete repository
