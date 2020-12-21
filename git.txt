@@ -17,3 +17,11 @@ git diff git.txt -- get changes in file
 ----------------------------------------------------------------
 git commit -m"initial commit"
 ----------------------------------------------------------------
+git log -- get history of commits
+git log -p -3 -- 3 commit (-p -> git diff)
+git log --stat -- short statistic
+git log --pretty=oneline -- 1commit 1 row
+================================================================
+.gitignore -> *.idea *.cmd ...
+================================================================
+
