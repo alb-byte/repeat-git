@@ -14,3 +14,6 @@ git add git.txt -- untracked -> staged
 git rm --cached git.txt -- staged -> untracked
 ----------------------------------------------------------------
 git diff git.txt -- get changes in file
+----------------------------------------------------------------
+git commit -m"initial commit"
+----------------------------------------------------------------
