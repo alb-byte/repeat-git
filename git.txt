@@ -1,0 +1,16 @@
+git config (--global) user.name -- get user
+git config (--global) user.name "Albert Shymanel" -- set user
+----------------------------------------------------------------
+git config (--global) user.email -- get email
+git config (--global) user.email "albert@gmail.com" -- set email
+----------------------------------------------------------------
+--->info in file .git/config
+----------------------------------------------------------------
+--->State untracked unmodified modified staged
+----------------------------------------------------------------
+git status -- get status of repository
+----------------------------------------------------------------
+git add git.txt -- untracked -> staged
+git rm --cached git.txt -- staged -> untracked
+----------------------------------------------------------------
+git diff git.txt -- get changes in file
