@@ -45,4 +45,7 @@ git branch front -- create branch front
 git checkout front -- use branch front
 git checkout -b front -- create branch and use
 git merge front -- merge main && front
+git branch -d front -- delete merge branch
+git mergetool -- get conflicts 
 ----------------------------------------------------------------
+ui1
