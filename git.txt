@@ -38,3 +38,11 @@ git remote show origin -- show github repository
 git remote rename pb paul -- rename 
 git remote rm paul -- delete repository
 ===============================================================
+git branch -- get all branch
+git branch -v -- get all branch and last commits
+----------------------------------------------------------------
+git branch front -- create branch front
+git checkout front -- use branch front
+git checkout -b front -- create branch and use
+git merge front -- merge main && front
+----------------------------------------------------------------
