@@ -48,4 +48,5 @@ git merge front -- merge main && front
 git branch -d front -- delete merge branch
 git mergetool -- get conflicts 
 ----------------------------------------------------------------
-ui1
+ui2
+>>>>>>> ui2
